@@ -180,9 +180,9 @@ footer .footerBottom .rightText{
   margin-right: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 483px) {
   header .leftOptions li {
-      display: block;
+      font-size: 10px;
       margin-right: 0;
   }
 
@@ -200,6 +200,30 @@ footer .footerBottom .rightText{
 
   section .searchArea .languageBar {
       margin-top: 10px;
+  }
+
+  section .searchArea .searchBox .searchBar .searchIcon,
+section .searchArea .searchBox .searchBar .voiceIcon {
+    display: none;
+  }
+  footer .footerData {
+    font-size: 9px;
+  }
+
+  footer .footerData .countryBar {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  footer .footerData .footerBottom .leftText,
+  footer .footerData .footerBottom .rightText {
+    text-align: center;
+  }
+  footer .footerData .footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
 
 }
