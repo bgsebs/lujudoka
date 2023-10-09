@@ -96,7 +96,7 @@ button {
 
 @media (max-width: 483px) {
   .image-results {
-    font-size: 4px;
+    font-size: 6px;
   }
   .search-filters {
     font-size: 10px;
