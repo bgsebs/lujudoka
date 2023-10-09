@@ -225,5 +225,8 @@ section .searchArea .searchBox .searchBar .voiceIcon {
     align-items: center;
     flex-direction: column;
   }
+  section .searchArea .searchBox .searchBar .search input{
+    width: 18em;
+  }
 
 }
